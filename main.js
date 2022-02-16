@@ -1,22 +1,26 @@
-// Operadores Asignacion
-let x;
+// Operadores Adición
+let x = null;
 let y = 50;
 let myStyle = `
     color: #fff;
-    background: #226666;
+    background: #801515801515;
     padding: 5px;
     border-radius: 5px;
 `;
-
-// Asignacion
-console.group(`%cOperadores Asignacion`, myStyle);
+// Adición
+console.group(`%cOperadores Adición`, myStyle);
 
 
     console.log(`Variable x: ${x} Variable y: ${y}`);
 
-    console.log(`Abreviacion: x = y;`);
     // Abreviacion
-    x = y;
+    console.log(`Abreviacion: x += y;`);
+    x += y;
+
+    // // Significado
+    // console.log(`Significado: x = x + y;`);
+    // x = x + y;
+
     console.log(`x: ${x} y: ${y}`);
 
 
