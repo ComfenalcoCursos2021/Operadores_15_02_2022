@@ -1,17 +1,18 @@
-// Operadores Arigmetico Suma
-let num1 = parseInt(prompt("Usuario ingrese el numero 1", 1));
-let num2 = new Number(prompt("Usuario ingrese el numero 2", 2));
+// Operadores Arigmetico Resta
+let num1 = parseInt(prompt("Usuario Ingrese un numero mayor que 0", 1));
+let num2 = new Number(prompt("Usuario ingrese siguiente numero", 1));
 let myStyle = `
     color: #fff;
-    background: #801515;
+    background: #567714;
     padding: 5px;
     border-radius: 5px;
 `;
 
-console.group(`%cOperadores Arigmetico Suma`, myStyle);
+console.group(`%cOperadores Arigmetico Resta`, myStyle);
 
     console.log(`Variable num1: ${num1} num2: ${num2}`);
-    num1 += num2;
-    console.log(`La suma es: ${num1}`);
+    //Operacion de resta
+    num1 -= num2;
+    console.log(`La resta es: ${num1}`);
 
 console.groupEnd();
