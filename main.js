@@ -1,19 +1,11 @@
-let reslutado  = 5*((4/4)*(9-7)*2)+6;
-//  5*((1)*(9-7)*2)+6
-//  5*((1)*(2)*2)+6
-//  5*(2*2)+6
-//  5*(4)+6
-//  5*(4)+6
-//  20+6
-//  26
-console.log(reslutado);
+// Operador de comparacion Igualdad
+let x = 5+(2*2)-(6/2);
+//      5+(4) - (6/2)
+//      5+(4) - (3)
+//      9    -  (3)
+//         6
+let y = 5;
+let resultado = x == y;
 
-let reslutado2  = 5+1*8+(9 * (5+8) / 2);
-//  5+1*8+(9*(5+8)/2)
-//  5+1*8+(9*(13)/2)
-//  5+1*8+(117/2)
-//  5+1*8+(58.5)
-//  5+ 8 +58.5
-//  13 + 58.5
-//  71.5
-console.log(reslutado2);
+console.log(`Variable x: ${x} y: ${y} Igualdad '==' ${resultado}`);
+
